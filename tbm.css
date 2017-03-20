@@ -1,0 +1,62 @@
+body{
+  background-color: #F7D488;
+}
+#p1{
+  margin: 0px;
+}
+h1{
+  text-align: center;
+  display: inline-block;
+  border-style: solid;
+  color: #F9A03F;
+  font-family: "Fascinate Inline", cursive;
+  font-size: 50px;
+  margin: 1px;
+}
+h2{
+  text-align: center;
+  color: #92B9BD;
+  font-family: "Bevan", cursive;
+  font-size: 15px;
+  margin: 1px;
+  display: inline-block;
+  border-style: dotted;
+}
+#modal{
+  position:relative;
+  display: none;
+  z-index: 2;
+  text-align: center;
+  width: 1000px;
+  margin-left: 250px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #92B9BD;
+}
+#vid{
+  align-items: center;
+  margin-left: 100px;
+}
+#closeButton{
+float: right;
+margin-right: 100px;
+}
+#p2{
+  border-style: dashed;
+  font-size: 30px;
+  color: #F9A03F;
+  font-family: "Bevan", cursive;
+}
+.image{
+  float: right;
+  background-color: white;
+  display: inline-block;
+  width: 200px;
+  height: auto;
+  margin-right: 440px;
+  margin-bottom: 150px;
+}
+table{
+  position: absolute;
+  z-index: 1;
+}
